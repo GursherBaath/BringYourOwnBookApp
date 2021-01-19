@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#18152a"
+        android:scaleType="center" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="#f7d439"
+                android:onClick="toGame"
+                android:text="Back to Game"
+                android:textColor="#4b4a9f"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:src="@drawable/object_edited" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="Win points by searching through your book for the
+most entertaining phrases that match the chosen prompts.
+Decide on the number of points that a seeker must accrue
+in order to win (Suggestion: 5 points)."
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/set_up_edited"
+                />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="Each player should grab a book from somewhere nearby
+and then gather back to form a circle in the playing area.
+You can play with any book: novel, cookbook, travel
+guide, etc. Be creative with your choices!"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/how_to_play_edited"
+                />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="Whoever last read an epic
+novel becomes the first Picker.
+The Picker looks at the prompt and
+reads it aloud."
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:src="@drawable/justprompt" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/seek_edited" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="Everyone except the Picker then searches their books for text
+to satisfy the prompt. Seekers should look for sequential text
+of any length: a single word, half of a sentence, a whole
+sentence, or multiple sentences."
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/got_it_edited"
+                />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="The first Seeker to find matching text announces,
+&quot;I’ve got it,&quot; and then starts the timer.
+This signals to the rest of the Seekers they have
+60 seconds to also find a relevant word or phrase."
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:src="@drawable/timerbeforeclick" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:src="@drawable/timerafterclick" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/read_edited"
+                />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="When the timer runs out (or every Seeker announces
+&quot;I’ve got it&quot;), each Seeker reads aloud what they’ve found.
+Seekers who didn’t find text in time may open their books
+to a random page and read a random sentence from it."
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/judge_edited"
+                />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="The Picker chooses their favorite submission and awards
+that Seeker a point by locking in their player button and clicking
+&quot;Next Turn&quot;."
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:src="@drawable/playerlockin" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/rotate_edited"
+                />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="After each round, the new picker
+is shown on the top of the screen.
+Play continues just like the
+previous round. Also, every
+time any player reaches two
+cards, everyone passes their
+books to the left."
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:src="@drawable/pickerplace" />
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ending_the_game_edited"
+                />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="The first player to get the previously decided amount of points wins!"
+                android:textColor="#FFFFFF"
+                android:textSize="25dp" />
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
