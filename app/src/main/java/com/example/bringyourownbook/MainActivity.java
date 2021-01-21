@@ -14,7 +14,6 @@ import android.widget.TextView;
 
 //Name: Gursher Baath
 //Date: June 15 2020
-//Purpose: Unit 4 Project - Bring Your Own Book
 
 public class MainActivity extends AppCompatActivity {
 
