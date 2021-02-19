@@ -53,7 +53,7 @@ public class Deck {
 
     //returns the card in the deck without popping it off
     public Card peek() {
-        return data[count--];
+        return data[count-1];
     }
 
     //returns if the deck if empty or not
