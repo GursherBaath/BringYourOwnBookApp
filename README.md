@@ -1,5 +1,5 @@
 # Bring Your Own Book
-![](images/gamescreen.png "Game Screen")
+![](images/gamescreenImproved.png "Game Screen")
 #### Bring Your Own Book is an in-person multiplayer party game with unlimited playability!
 #### It is an old board game that has been transformed into an android app so the fun is always in your pocket.
 #### This app was created using Java and XML in Android Studios.
